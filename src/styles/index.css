@@ -1,11 +1,50 @@
-/* 
+body {
+	margin: 0;
+	background: white;
+	padding-top: 30px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
 
-*/
+
+/* Barra negra grande */
+.counter {
+	background: black;
+	padding: 25px 30px;
+
+	display: flex;              
+	flex-direction: row;       
+	gap: 18px;
+
+	justify-content: center;
+	align-items: center;
+
+	width: fit-content;         
+	margin: 0 auto;             
+}
+
+
+
+/* Cajitas oscuras */
+.box {
+	width: 95px;
+	height: 140px;
+	background: #111;
+	border-radius: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: white;
+	font-size: 90px;
+	font-family: "Times New Roman", serif;
+
+	/* sombra suave como la imagen */
+	box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.08);
+}
+
+/* reloj un poquito más grande */
+.box i {
+	font-size: 70px;
+}
+
